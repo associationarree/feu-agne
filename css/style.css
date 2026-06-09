@@ -1,0 +1,50 @@
+html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: rgb(255, 255, 255);
+        }
+
+        .far-image {
+            width: 100vw;
+            height: 100vh;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: opacity 0.5s ease;
+        }
+
+
+        .p-bloc {
+            position: fixed;
+            right: 25px;
+            bottom: -5%;
+            z-index: 900;
+            font-size: 50px;
+        }
+
+
+        
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+    filter:blur(1px);
+  color: rgb(172, 172, 172);
+}
+
+a:active {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
